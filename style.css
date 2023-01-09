@@ -1,0 +1,286 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    font-size:16px;
+}
+p{
+    line-height: 24px;
+    text-align: justify;
+}
+#banner{
+    background:url(img/header-o-velebitu.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+    overflow:hidden;
+    background-color:#004F00;
+}
+ul li{
+    float:left;
+}
+ul li a{
+    display:block;
+    padding:20px 12px;
+    text-decoration:none;
+    color:white;
+    text-transform: uppercase;
+}
+ul li a:hover{
+    background-color:#63b32e;
+    color: black;
+}
+main{
+    padding:0 12px 0 12px;
+}
+h1{
+    font-size:38px;
+}
+h2{
+    font-size:28px;
+}
+#nasl-park > h2{
+    margin-top:0;
+}
+figure{
+    margin:0;
+    width:40%;
+    float:left;
+    margin-bottom: 8px;
+}
+figure img{
+    width:100%;
+}
+figure figcaption{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#nasl-cer{
+    padding-top:26px;
+    clear:both;
+}
+#nasl-park{
+    float:left;
+    margin-left: 1%;
+    width:59%;
+}
+#nasl-cer-banner{
+    display:block;
+    background-image:url(img/home_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 500px;
+}
+.prir-bg{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 300px;
+}
+.prir-abs{
+    top: 140px;
+    left: 80px;
+    position: absolute;
+}
+#flora{
+    background-image:url(img/velebitska-degenija.jpg);
+}
+#fauna{
+    background-image:url(img/fauna-head.jpg);
+}
+#klima{
+    background-image:url(img/klima.jpg);
+}
+#stanista{
+    background-image:url(img/stanita.jpg);
+}
+#geoloska-grada{
+    background-image:url(img/geologija.jpg);
+}
+footer{
+    background-color:#004F00;
+}
+footer p{
+    margin:0;
+    padding:14px;
+    color:white;
+    text-align: center;
+}
+footer a{
+    color:#63b32e;
+    text-decoration: none;
+}
+footer a:hover{
+    color:white;
+}
+#prirodna-bastina article img
+{
+    float:left;
+    margin-right:4px;
+}
+#prirodna-bastina article{
+    clear:both;
+    overflow:hidden;
+    margin-bottom: 30px;
+    position: relative;
+}
+#prirodna-bastina article h2{
+    margin-top:0;
+    color: white;
+    text-shadow: 2px 2px 4px #000;
+    text-transform: uppercase;
+}
+#prirodna-bastina article h2:hover{
+    color:#63b32e;
+}
+#prirodna-bastina article a,
+#clanak a{
+    display: block;
+    color:#004F00;
+    text-decoration:none;
+    text-transform: uppercase;
+    margin: 24px 0;
+}
+#prirodna-bastina article p{
+    text-indent: 24px;
+    text-align: justify;
+}
+#prirodna-bastina article a:hover,
+#clanak a:hover{
+    color:#63b32e;
+}
+#prirodna-bastina article > div > a,
+#clanak a{
+    font-weight:700;
+}
+#prirodna-bastina img{
+    max-width:350px;
+}
+.clanak-img{
+    width: 200px;
+    padding: 8px;
+}
+.clanak-sec{
+    clear: both;
+}
+.back{
+    clear: both;
+}
+form{
+    overflow:hidden;
+}
+form input, form textarea, form select{
+    width:calc(80% - 16px);
+    border: 2px solid #004F00;
+    color: rgb(54, 54, 54);
+    padding: 12px 6px;
+    margin-bottom: 6px;
+    background-color: white;
+    box-sizing: content-box;
+}
+form input[type="submit"] {
+    background-color: #004F00;
+    color: white;
+}
+form input[type="submit"]:hover {
+    background-color: #63b32e;
+    color: black;
+    border: 2px solid #63b32e;
+}
+form label{
+    width:20%;
+    float:left;
+}
+#posalji{
+    float:none;
+    width:100%;
+}
+#galerija{
+    overflow:hidden;
+}
+#galerija figure{
+    width:25%;
+    min-height:150px;
+    margin-bottom:10px;
+}
+#galerija figure figcaption{
+    height:50px;
+}
+#galerija figure a{
+    display:inline-block;
+    height:100%;
+    width:100%;
+}
+#galerija figure a img{
+    display:block;
+    height:350px;
+    max-width:100%;
+    width:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+video{
+    width: 30%;
+    max-width: 420px;
+    float:left;
+    margin: 0 8px 8px 0;
+}
+#onama{
+    overflow: hidden;
+    clear:both;
+    margin-bottom: 1rem;
+}
+#clanak-figure{
+    float: none;
+    max-width: 300px;
+    padding: 8px;
+}
+#clanak-figure img{
+    width: 100%;
+}
+#clanak-figure + h1{
+    margin-top: 0;
+}
+@media only screen and (max-width: 900px) {
+    figure{
+        width:100%;
+        float:none;
+    }
+    #nasl-park{
+        margin-left:0;
+        width:100%;
+        float:none;
+    }
+    #prirodna-bastina article img{
+        float:none;
+    }
+    #galerija figure{
+        width:100%;
+    }
+    video{
+        width: 100%;
+        float:none;
+        margin: 8px 0;
+    }
+    #onama p{
+        float:none;
+        width: 100%;
+    }
+    .clanak-img{
+        width: calc(100% - 16px);
+        float: none;
+    }
+    form input, form textarea, form select{
+        width: calc(100% - 16px);
+    }
+    #clanak-figure{
+        max-width: calc(100% - 16px);
+    }
+}
